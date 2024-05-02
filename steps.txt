@@ -1,15 +1,23 @@
-
+git config --global user.name zup-miau
+git config --global user.email sophiavarasquim987@gmail.com
 
 
 npx create-expo-app zuplist
 
 cd zuplist
+npm i 
+
 
 instalar o router
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 
 executar com o cabo no celular
 npx expo start --localhost --android
+
+executar web
+
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo start 
 
 
 configurar router
