@@ -17,7 +17,7 @@ npx expo start --localhost --android
 executar web
 
 npx expo install react-dom react-native-web @expo/metro-runtime
-npx expo start 
+    npx expo start 
 
 
 configurar router
